@@ -19,7 +19,6 @@ header{
     width: 90%;
     margin:  auto auto;
     align-items: center;
-    
 }
 #entrada-tarefa{
     font-size: 1.1rem;
@@ -46,3 +45,44 @@ header{
 .adicionar-tarefa:hover{
     cursor: pointer;
 }
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    padding-top: 4%;
+    margin: auto auto;
+
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 2rem;
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.item-icone{
+    flex: 15%;
+    text-align: center;
+}
+
+.icon-cicle > img{
+    width: 25%;
+}
+
+.item-nome{
+    flex: 70%;
+    border: 1px solid pink;
+    font-weight: bold;
+}
+
+.item-botao{
+    flex: 15%;
+    border: 1px solid brown;
+}
+
