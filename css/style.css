@@ -111,7 +111,7 @@ main {
 
 .item-clicado .item-nome {
     text-decoration: line-through;
-    color: #cacaca;
+    color: #9d9d9d;
 }
 
 .item-botao {
